@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "ja">
+    <head>
+        <meta charset ="utf8">
+        <link rel = "stylesheet" text = "text/css" href = "style.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700|Nunito" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <title>グラブル：石計算ページ</title>
+        <!--<title>GRABLU Asset Management</title>-->
+    </head>
+    <body>
+        <header class = "Page-width">
+            <ul id = "site-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">about</a></li>
+            </ul>
+        </header>
+        <div id = "main">
+            <div class = "box">
+                <div class = "top-margin">
+                    <h1>GRABLU Asset Management</h1>
+                </div>
+                    <div class = "content">
+                        <form id = "Asset-form">
+                            <div class = "Asset">
+                                <input type = "text" name = "AssetStone" class = "vaild-AssetStone" placeholder="宝晶石">
+                            </div>
+                            <div class = "Asset">
+                                <input type = "text" name = "TenTicket" class = "vaild-TenTicket" placeholder="10連チケット">
+                            </div>
+                            <div class = "Asset">
+                                <input type = "text" name = "SingleTicket" class = "vaild-SingleTicket" placeholder="チケット">
+                            </div>
+                            <div class = "Asset">
+                                <span class = "Message-block">　</span>
+                                <input type = "button" name ="btn" id = "btn" class = "has-none" value = "換算">
+                            </div>
+                        </form>
+                        <div class = "Result">
+                            <p><span class = "AssetTimes">0</span>連分</p>
+                            <p><span class = "Price">0</span>円分</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <footer class = "Page-width">
+            <p>Copyright MyHomePage. All Rights Reserved.</p>
+        </footer>
+    </body>
+    <script src = "jquery-3.3.1.min.js"></script>
+    <script src ="main.js"></script>
+</html>

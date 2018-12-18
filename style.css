@@ -1,0 +1,189 @@
+body
+{
+    color:#444;
+    margin:0;
+    padding:0;
+    line-height: 150%;
+}
+
+.Page-width
+{
+    width:100%;
+    margin:0;
+    padding:0;
+    background: rgb(84, 175, 236);
+}
+
+/*Header*/
+header
+{
+    height:50px;
+}
+#site-nav
+{
+    overflow: hidden;
+    position: absolute;
+    list-style: none;
+    right: 50px;
+}
+
+#site-nav li
+{
+    float:left;
+}
+
+#site-nav a
+{
+    padding:15px 10px;
+    color:#444;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*--main--*/
+#main
+{
+    width:100vw;
+    height:auto;
+    min-height: 100vh;
+    background-image:url("image/backgroundimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box
+{
+    height: auto;
+    min-height: 100vh;
+    background: rgba(255,255,255,0.5);
+}
+.top-margin
+{
+ 
+    overflow: hidden;
+    width:100%;
+    height:auto;
+    min-height: 30vh;
+    text-align: center;
+    margin:0 auto;
+}
+
+.top-margin h1
+{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 50px;
+    position: relative;
+    top:100px;
+}
+
+.content
+{
+    background:rgb(243, 243, 243);
+    overflow: hidden;
+}
+
+/*--FORM--*/
+.content form
+{
+    width:50%;
+    margin: 0 auto;
+    margin-top:40px;
+}
+
+.content .Asset
+{
+    width:50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content form input
+{
+    width:50%;
+    margin:0 auto;
+    margin-bottom: 15px;
+    padding:10px;
+    display: table;
+    vertical-align: middle;
+    text-align: right;
+    font-size:15px;
+}
+
+input[type = "text"]
+{
+    border:1px solid rgb(123, 216, 240);
+    border-radius: 3px;
+}
+
+.content form input[type = "button"]
+{
+    width:100px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f4f4f5;
+    text-align: center;
+    background: #444;
+    border:none;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.Result
+{
+    width:50%;
+    margin:0 auto;
+    display: table;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.Result span
+{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*--footer--*/
+
+/*--バリデーションチェック--*/
+.Message-block
+{
+    font-size:15px;
+    font-family: 'Noto Sans TC', sans-serif;
+    height: 20px;
+}
+
+.form-error
+{
+    background: rgba(214, 8, 8, 0.5);
+}
+
+.form-success
+{
+    background:rgb(50, 231, 156 , 0.5);
+}
+
+.has-error
+{
+    color:rgb(240, 9, 9);
+    font-weight: bold;
+}
+
+/*--footer--*/
+footer
+{
+    position: relative;
+    bottom: 0%;
+}
+
+footer p
+{
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    text-align: right;
+    margin: 0 auto;
+}
